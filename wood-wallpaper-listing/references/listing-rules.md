@@ -37,7 +37,7 @@ Prefer clear US English and natural descriptions. In the title/highlights, capit
 
 - Title target: 70–75 characters including spaces. Keep title word repetition at no more than twice and begin with the brand.
 - Item Highlights target: 120–125 characters when the field is available.
-- Backend Search Terms target: 240–250 characters, all lowercase. Keep within Amazon's configured byte ceiling and use the deterministic byte check; English ASCII terms generally count one byte each.
+- Backend Search Terms target: 240–249 bytes, all lowercase. The configured ceiling is under 250 bytes, so a 250-byte value fails even though internal planning may describe the target as 240–250. Use the deterministic byte check; English ASCII terms generally count one byte each.
 - Product Description target: 1800–2000 characters. Cover supported product features, suitable surfaces, audiences, scenarios, and application steps. Build clear links between product attributes and buyer tasks/intents based on COSMO. Do not invent product-specific performance, compatibility, or installation claims.
 - Bullet Points remain 5–8 items, aiming around 200 characters each.
 - Listing upload processing strips rich text. Deliver plain text. Differentiate bullet lead-ins with punctuation or capitalization only. Do not use bold, font changes, or rely on rich formatting.

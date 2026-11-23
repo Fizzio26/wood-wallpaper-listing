@@ -10,4 +10,6 @@ Read the project knowledge base at `../../../../知识库` when available. The p
 
 Suggested usage: new listing reads COSMO, product knowledge, listing rules, and prohibited terms. Renovation additionally reads original listing and history guidance. Final review always reads listing rules and prohibited terms. Consult history only when comparing or saving. Product profiles and confirmed listing history begin empty and are accumulated only from user-supplied facts and confirmed final copy.
 
+When competitor ASINs are supplied, also read `competitor-keyword-research.md` before keyword planning. The competitor gate comes before drafting and before allocating keywords to fields.
+
 Never rewrite or overwrite original knowledge base materials. Competitor ASIN pages can provide wording and market context, not proof of user product functionality. Search keyword hypotheses are not search volume or ranking evidence.
