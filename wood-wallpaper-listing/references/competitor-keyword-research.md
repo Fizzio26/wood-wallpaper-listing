@@ -1,6 +1,6 @@
 # Competitor and SIF keyword research
 
-Use this reference when the user provides competitor ASINs or asks for competitor-informed keyword planning. When one or more competitor ASINs are present, query every supplied ASIN through SIF-MCP before drafting. Competitor reverse-search output is the first keyword source; the user's keyword pack is the second source.
+Use this reference when the user provides competitor ASINs or asks for competitor-informed keyword planning. When one or more competitor ASINs are present, query every supplied ASIN through SIF-MCP before drafting. Competitor reverse-search output is the first keyword source; the bundled SIF keyword pack is the second source. Do not ask the user to re-upload the bundled package.
 
 ## Required record
 
@@ -16,12 +16,12 @@ For each ASIN, record marketplace, ASIN, public listing URL or source, access da
 ## Source and selection order
 
 1. Collect SIF-MCP reverse-search terms for every supplied competitor ASIN. Retain the source ASIN and query month for each record.
-2. Add the user's keyword-pack terms as a distinct source. They remain useful for coverage, particularly where SIF-MCP has no result.
+2. Add terms from the bundled keyword pack as a distinct source. They remain useful for coverage, particularly where SIF-MCP has no result.
 3. Remove terms that conflict with the SKU, represent another product category, contain another brand or ASIN, or require an unsupported claim.
 4. Classify retained terms as `core`, `secondary`, or `long-tail`; this labels intent and priority, not a required Listing field.
 5. Allocate each selected term to the field where it reads naturally and adds uncovered buyer intent.
 
-If SIF-MCP data are unavailable, state that the reverse-search evidence is pending and use the relevant keyword pack without inventing volume, rank, or traffic values.
+If SIF-MCP data are unavailable, state that the reverse-search evidence is pending and use the relevant bundled keyword pack without inventing volume, rank, or traffic values.
 
 ## Selection order within each source
 
