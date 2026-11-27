@@ -2,7 +2,7 @@
 
 ## 资料摘要
 
-COSMO（Common Sense Knowledge Generation and Serving System）研究从大规模电商用户行为中挖掘以用户为中心的常识关系，用于丰富商品知识表示。论文描述了候选知识生成、质量过滤与人工标注、知识完善，以及搜索相关性、会话推荐和搜索导航等应用。培训 PPT 对该工作的商业化解读包括用户意图、Rufus 问答和场景化商品内容，属于培训材料观点，需与论文结论区分。
+COSMO（Common Sense Knowledge Generation and Serving System）研究从大规模电商用户行为中挖掘以用户为中心的常识关系，用于丰富商品知识表示。论文描述了候选知识生成、质量过滤与人工标注、知识完善，以及搜索相关性、会话推荐和搜索导航等应用。培训材料对用户意图、Rufus 问答和场景化商品内容的商业化解释，只能作为规划框架，不能当作 Amazon 排名或转化机制的证据。
 
 ## Listing 应用方法
 
@@ -19,6 +19,29 @@ COSMO（Common Sense Knowledge Generation and Serving System）研究从大规�
 ## 关系类型参考
 
 培训图片和 XLSX 场景表包含 USE_FOR_FUNC、USE_FOR_EVE、USE_FOR_AUD、CAPABLE_OF、USE_TO、USE_AS、IS_A、USE_ON、USE_IN_LOC、USE_WITH、USE_BY、INTERESTED_IN、X_WANT 等关系。用作构思分类，不应将其误称为 Amazon 官方 Listing 字段。
+
+## COSMO/Rufus 问题覆盖层
+
+Use this layer during planning, after SKU facts are verified and before drafting. It improves answerability and clarity; it does not predict ranking, recommendation, traffic, or conversion.
+
+1. Start from a verified SKU attribute, not a keyword alone.
+2. Select only relevant relations. For this category, common choices are `IS_A`, `USE_FOR_FUNC`, `USE_AS`, `CAPABLE_OF`, `USE_IN_LOC`, `USE_WITH`, `USED_BY`, and `X_WANT`.
+3. Generate candidate buyer questions in ordinary language. Cover product identity, size/coverage, appearance, fit surfaces, installation, care, removal, and known limitations.
+4. Label every answer as **verified**, **needs confirmation**, or **not answerable from Listing facts**. Only verified answers may enter Listing copy. A question can reveal a missing fact, but cannot create a claim.
+5. Allocate each retained answer to one field. Prefer the title for product identity, Highlights/Bullets for decision-critical facts, and Description for method, care, and limitations. Avoid repeating the same answer in several fields.
+
+Rufus is an Amazon shopping assistant that can use catalog content, reviews, Q&As, and other information to respond to shopping questions. This supports writing a clear, internally consistent fact set, but does not authorize claims based on reviews, competitor information, or web sources. Do not claim that a Listing is "Rufus optimized" or that it will be surfaced by Rufus.
+
+### Review questions for wood contact paper
+
+- What is it, and what visual result does it offer? (`IS_A`, `USE_AS`)
+- What size or coverage does one roll provide? (`IS_A`)
+- Which prepared surfaces can use it, and which cannot? (`USE_IN_LOC`)
+- How is it measured, cut, and applied? (`USE_FOR_FUNC`)
+- What do waterproof and removable mean for this SKU, including limits? (`CAPABLE_OF`)
+- What material, texture, coverage, or care question remains unverified? Mark it for confirmation instead of drafting an answer.
+
+Do not use audience, event, room, or accessory relations merely to increase keyword count. Include a scenario only when it has a direct fit with the verified surface and product use.
 
 ## 木纹墙纸示例
 

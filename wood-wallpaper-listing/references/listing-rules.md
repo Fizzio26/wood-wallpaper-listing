@@ -16,7 +16,7 @@ Backend Search Terms: lowercase and under 250 bytes. Favor relevant uncovered sy
 
 ## Company product facts
 
-Waterproof and removable are verified by default. Thickness and surface texture require user input or confirmation. Current product has no heat-resistant or antibacterial capability. Do not claim these capabilities. Competitor facts do not transfer to the user's SKU.
+Material is vinyl by default. Waterproof and removable are verified by default. Waterproof covers ordinary splashes and wipe-down care only; it does not mean soaking, direct shower use, prolonged water exposure, or food-contact suitability. Removable does not promise residue-free or damage-free removal on every substrate. Dry, smooth, clean countertops are within the standard supported-surface default, but heat resistance is not implied. Thickness and surface texture require user input or confirmation. Current product has no heat-resistant or antibacterial capability. Do not claim these capabilities. Competitor facts do not transfer to the user's SKU.
 
 ## User-facing copy style
 
